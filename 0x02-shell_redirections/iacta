@@ -1,0 +1,4 @@
+to display first 10 lines use head filename
+to display first n lines use head -n filename
+to dispay last 10 lines use tail filename
+to display last n lines use tail -n filename
