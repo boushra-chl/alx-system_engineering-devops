@@ -1,0 +1,2 @@
+#!/bin/bash
+uniq < list_unique >> list_unique | sort
