@@ -1,17 +1,12 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
 """export data in CSV format"""
 
-=======
-"""Export data in the CSV format"""
 
 import csv
->>>>>>> 180a72d0329eee4e763e5ebf799345b1120e4eab
 import requests
 import sys
 
 
-<<<<<<< HEAD
 def get_user_data(EMPLOYEE_ID):
     url = f"https://jsonplaceholder.typicode.com/users/{EMPLOYEE_ID}"
     response = requests.get(url)
@@ -32,7 +27,6 @@ def get_todo_list(EMPLOYEE_ID):
 
     return response.json()
 
-=======
 def export_to_csv(EMPLOYEE_ID):
     """exports data to csv file"""
     base_url = 'https://jsonplaceholder.typicode.com'
@@ -62,4 +56,3 @@ if __name__ == "__main__":
     else:
         EMPLOYEE_ID = sys.argv[1]
         export_to_csv(EMPLOYEE_ID)
->>>>>>> 180a72d0329eee4e763e5ebf799345b1120e4eab
